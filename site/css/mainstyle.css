@@ -40,6 +40,7 @@
   
 
   html, body {
+    
     font-family: 'Poppins', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -454,6 +455,8 @@
             color: rgb(236, 145, 7);
                 }
 
+                    /* CARROSSEL */
+
                 #carousel .row {
                     justify-content: center;
                 }
@@ -467,25 +470,25 @@
 
                                     .grid-container {
                                         display: grid;
-                                        grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
-                                        gap: 20px; /* Espaçamento entre colunas */
-                                        align-items: start; /* Alinha os itens ao topo */
+                                        grid-template-columns: 1fr 1fr; 
+                                        gap: 20px; 
+                                        align-items: start; 
                                     }
 
-                                    /* Ajusta o tamanho do carrossel */
+                                    
                                     .carousel {
-                                        max-width: 100%; /* Ajusta o carrossel ao tamanho da coluna */
+                                        max-width: 100%; 
                                         height: 250px;
-                                        margin-left: 40px; /* Altura reduzida */
+                                        margin-left: 40px; 
                                     }
 
-                                    /* Responsividade para celular */
+                                   
                                           .carousel__viewport {
-                    height: 100%; /* Garante que o carrossel ocupe toda a altura */
+                    height: 100%; 
                 }
 
                 .carousel__slide {
-                    height: 100%; /* As slides também ocupam toda a altura */
+                    height: 100%; 
                 }
 
                 .info-section {
@@ -729,7 +732,8 @@
               
                 
                 
-                
+                /* TOP FILMES */
+
                 .movies {
                 justify-content: end;
                 background-color: #f7f7f7;
