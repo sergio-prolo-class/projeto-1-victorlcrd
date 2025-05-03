@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório 04 - Victor Gabriel de Souza Lacerda </title>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <main>
+        <form action="infos">
+            <section>
+                <h5>====> Informações do usuário:</h5>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+
+            </section>
+
+            <section>
+                <h5>=====> Detalhes da Tarefa</h5>
+                <label for="tarefa">Primeira tarefa:</label>
+                <input placeholder="Ex: Lab de POO" id="tarefa" name="tarefa">
+                <br>
+
+                <label for="data_inicio">Data de início:</label>
+                <input type="date" id="data_inicio" name="data_inicio">
+                <br>
+
+                <label for="prazo">Prazo para a conclusão:</label>
+                <input type="date" id="prazo" name="prazo">
+                <br>
+
+                <label for="descricao">
+                    <h5>========> Descrição:</h5>
+                </label>
+                <textarea placeholder="Descreva como a tarefa deve ser feita" id="descricao"
+                    name="descricao"></textarea>
+                <br>
+
+
+                <label for="urgencia">
+                    <h5>=====> Urgência da tarefa:</h5>
+                </label>
+                <p>Vermelho: Muito importante, Amarelo: Pouco importante, Verde: Sem urgência</p>
+                <input type="color" id="urgencia" name="urgencia">
+
+                <br>
+                <h5>=====> Adicionar Mídia</h5>
+                <label for="midia">Adicione uma mídia para a tarefa (opcional): <br></label>
+                <input type="file" id="midia" name="midia" accept=".jpg, .png, .jpeg">
+            </section>
+
+            <section>
+                <h5>====> Tarefas Concluídas</h5>
+                <p>Marque as tarefas já concluídas:</p>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Tarefas_IFSC" value="poo"> Fazer laboratório de POO
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Tarefas_IFSC" value="redes"> Estudar para a prova de Redes
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Tarefas_IFSC" value="extensao"> Visitar o museu de São José
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="Tarefas_IFSC" value="feI"> Fazer laboratório de Front-end
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </form>
+
+        <section>
+            <form>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <p>Retorne ao laboratório anterior:
+        <a href="onibus.html">tabelas de horários</a>
+    </p>
+</body>
+
+</html>
