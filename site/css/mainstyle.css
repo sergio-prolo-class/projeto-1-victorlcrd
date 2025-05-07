@@ -18,6 +18,7 @@
     list-style: none;
     color: #fff;
   }
+  
 
   .main-button a {
     display: inline-block;
@@ -562,7 +563,7 @@
                     
                     * {
                     box-sizing: border-box;
-                    scrollbar-color: transparent transparent; 
+                    scrollbar-color: orange rgb(99, 98, 98); 
                     scrollbar-width: 0px;
                     }
                     
@@ -789,13 +790,6 @@
                     z-index: 1000;
                   }
 
-                 
-                  
-                  @media (min-width: 1400px) { 
-             .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1320px;
-        }
-    }
 
     #card body {
         margin: 0;
@@ -909,21 +903,33 @@
     }
 
     footer {
-        margin-top: 150px;
-        background-color: #0071f8;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(../images/footer-bg.jpg);
-        min-height: 150px;
-        border-radius: 150px 150px 0px 0px;
-      }
-      
-      footer p, .footer .container {
+                margin-top: 150px;
+                background-color: #0071f8;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(../images/footer-bg.jpg);
+                min-height: 150px;
+                border-radius: 150px 150px 0px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .pagina {
+                text-align: center;
+                line-height: 1.5;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+            }
 
-        margin-top: 90px;
-        text-align: center;
-        line-height: 160px;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 400;
-      }
+            .contatos {
+                
+                text-align: center;
+                line-height: 1.5;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
