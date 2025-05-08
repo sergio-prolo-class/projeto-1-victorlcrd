@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap");
 
 *,
 *:before,
@@ -8,12 +8,25 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 1400px) { 
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-max-width: 1320px;
-}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -168,10 +181,6 @@ body {
 }
 
 @media (max-width: 500px) {
-
-  .main-nav {
-    justify-content: start ;
-}
   .wk-mobile-1 {
     width: 8.333333%;
   }
@@ -219,11 +228,93 @@ body {
   .wk-mobile-12 {
     width: 100%;
   }
-}
 
-@media (max-width: 768px) {
+  .right-image img {
+    width: 20rem;
+  }
+
+  .header-area {
+    height: 8rem;
+    width: 100%;
+  }
+  .main-banner {
+    width: 100%;
+  }
+
+  .caixa-habilidade {
+    margin-left: 0.5rem;
+    align-content: center;
+    background-color: white;
+    border: 2px solid rgba(255, 166, 0, 0.856);
+    padding: 1rem;
+    width: 25rem;
+  }
+
+  .habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .caixa-habilidade h3,
+  .caixa-habilidade li {
+    font-size: 0.7rem;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contatos {
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+
+  .pagina {
+    padding: 40px;
+    margin-top: 40px;
+    font-size: 10px;
+  }
+
+  .main-nav img {
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: -3rem;
+  }
+
+  .nav li {
+    margin-left: -3rem;
+  }
+
+  .section-heading h6 {
+    text-align: center;
+  }
+  .section-heading #cala p {
+    font-size: 0.8srem;
+    text-align: center;
+  }
+  #cala .item {
+    height: 100%;
+    width: 100%;
+  }
+  .section-heading h2 {
+    text-align: center;
+  }
+
+  .main-button a {
+    justify-self: center;
+    margin-left: 1.2rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
     .grid-container {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
-}  
-
+  }
+}
