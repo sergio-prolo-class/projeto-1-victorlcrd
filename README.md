@@ -154,15 +154,9 @@ Este README documenta os principais recursos de HTML e CSS utilizados no projeto
 
 ---
 
-## **Recursos Avançados**
+## **Recursos**
 
-### 1. **CSS Animations**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 985–1000
-   - **Descrição**:
-     - Animações para transições suaves no carrossel (`@keyframes`).
-
-### 2. **Grid e flexbox**
+### 1. **Grid e flexbox**
    - **Arquivo**: `css/mainstyle.css`
    - **Local**: Linha 786–796, 938
    - **Descrição**:
