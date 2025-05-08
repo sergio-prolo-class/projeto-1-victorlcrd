@@ -54,13 +54,7 @@ Este README documenta os principais recursos de HTML e CSS utilizados no projeto
 
 ---
 
-# Victor Lacerda Página - Front-end Project
-
-Este README documenta os principais recursos de HTML e CSS utilizados no projeto, indicando os arquivos e linhas onde aparecem. O objetivo é auxiliar na compreensão do código e destacar as principais funcionalidades implementadas.
-
----
-
-## **Recursos de HTML**
+## **Página de projetos**
 
 ### 1. **Estrutura básica do documento**
    - **Arquivo**: `index.html`
@@ -102,54 +96,12 @@ Este README documenta os principais recursos de HTML e CSS utilizados no projeto
    - **Descrição**:
      - Uso da tag `<footer>` para exibir informações de contato e uma descrição breve do autor.
 
----
-
-## **Página projetos**
-
-### 1. **Estilo básico e responsivo**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 10–50
-   - **Descrição**:
-     - Define a fonte global como "Poppins".
-     - Inclui estilos básicos como `margin: 0` e `padding: 0` para reset de CSS.
-
-   - **Arquivo**: `css/responsive.css`
-   - **Local**: Geral
-   - **Descrição**:
-     - Adapta o layout do site para diferentes tamanhos de tela usando Media Queries.
-
-### 2. **Cabeçalho fixo e estilização do menu**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 80–120
-   - **Descrição**:
-     - Adiciona um fundo fixo ao cabeçalho com bordas arredondadas.
-     - Estiliza links do menu com hover e transições suaves.
-
-### 3. **Banner principal**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 150–200
-   - **Descrição**:
-     - Adiciona uma imagem de fundo ao banner.
-     - Define estilos para o texto, como alinhamento central e espaçamento adequado.
-
-### 4. **Seção de projetos**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 220–300
-   - **Descrição**:
-     - Estiliza os cartões dos projetos com bordas arredondadas e sombras (`box-shadow`).
-     - Adiciona um efeito de hover nos botões para melhorar a interatividade.
-
-### 5. **Rodapé**
-   - **Arquivo**: `css/mainstyle.css`
-   - **Local**: Linha 350–400
-   - **Descrição**:
-     - Define o fundo do rodapé com cor sólida.
-     - Adiciona espaçamento e centraliza o texto.
-
 ### 6. **Observações**
 - Os arquivos como projeto.html, pessoal.html e faculdade.html possuem estruturas similiares, então deixei para comentar uma delas de forma geral.
 
 ---
+---
+
 
 ## **Recursos de CSS**
 
